@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <title>kao-kakao</title>
+</head>
+<body>
+    <!--Header start-->
+
+    <header class="header header__static">
+        <div class="container">
+            <div class="header__static--wrap">
+                <a href="/"><img src="/assets/icons/logo_full.webp" alt="Логотип као-какао" class="header__logo"></a>
+                <nav class="header__nav">
+                    <a href="#" class="header__link header__dropdown">
+                        условия
+                    </a>
+                    <a href="#" class="header__link">
+                        каталог
+                    </a>
+                    <a href="#" class="header__link">
+                        кейсы
+                    </a>
+                    <a href="#" class="header__link">
+                        партнерам
+                    </a>
+                    <a href="#" class="header__link">
+                        о компании
+                    </a>
+                    <a href="#" class="header__link">
+                        контакты
+                    </a>
+                </nav>
+                <button class="header__btn"></button>
+            </div>
+        </div>
+    </header>
+
+    <header class="header header__fixed" id="fixedHeader">
+        <div class="container">
+            <div class="header__fixed--wrap">
+                <a href="/"><img src="/assets/icons/logo_full.webp" alt="Логотип као-какао" class="header__logo"></a>
+                <nav class="header__nav">
+                    <a href="#" class="header__link header__dropdown">
+                        условия
+                    </a>
+                    <a href="#" class="header__link">
+                        каталог
+                    </a>
+                    <a href="#" class="header__link">
+                        кейсы
+                    </a>
+                    <a href="#" class="header__link">
+                        партнерам
+                    </a>
+                    <a href="#" class="header__link">
+                        о компании
+                    </a>
+                    <a href="#" class="header__link">
+                        контакты
+                    </a>
+                </nav>
+                <button class="header__btn"></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="burger-menu">
+        <div class="burger-menu__overlay"></div>
+        <div class="burger-menu__content">
+            <nav class="burger-menu__nav">
+                <a href="#" class="burger-menu__link">Условия</a>
+                <a href="#" class="burger-menu__link">Каталог</a>
+                <a href="#" class="burger-menu__link">Кейсы</a>
+                <a href="#" class="burger-menu__link">Партнерам</a>
+                <a href="#" class="burger-menu__link">О компании</a>
+                <a href="#" class="burger-menu__link">Контакты</a>
+            </nav>
+            <button class="burger-menu__close"></button>
+        </div>
+    </div>
+
+    <!--Header end-->
+
+    <!--main start-->
+
+    <div class="swiper swiper__slider--main">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="#">
+                    <picture>
+                        <source media="(max-width: 420px)" srcset="assets/content/form_420.webp">
+                        <source media="(max-width: 768px)" srcset="assets/content/form_768.webp">
+                        <source media="(max-width: 1024px)" srcset="assets/content/form_1024.webp">
+                        <img class="excursion__picture" src="assets/content/form.webp" alt="worker">
+                    </picture> 
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <picture>
+                        <source media="(max-width: 420px)" srcset="assets/content/form_420.webp">
+                        <source media="(max-width: 768px)" srcset="assets/content/form_768.webp">
+                        <source media="(max-width: 1024px)" srcset="assets/content/form_1024.webp">
+                        <img class="excursion__picture" src="assets/content/form.webp" alt="worker">
+                    </picture> 
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <picture>
+                        <source media="(max-width: 420px)" srcset="assets/content/form_420.webp">
+                        <source media="(max-width: 768px)" srcset="assets/content/form_768.webp">
+                        <source media="(max-width: 1024px)" srcset="assets/content/form_1024.webp">
+                        <img class="excursion__picture" src="assets/content/form.webp" alt="worker">
+                    </picture> 
+                </a>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="container">
+        <div class="main__wrap">
+            <section class="section section__product">
+                <article class="section__article">
+                    <h2 class="article__title">
+                        Популярные товары
+                    </h2>
+                </article>
+                <div class="product__list">
+                    <a href="#" class="product__item">
+                        <div class="product__item--wrap">
+                            <div class="product__item--wallpaper">
+                                <img src="assets/content/product.webp" alt="картинка для товара" class="product__item--img">
+                                <div class="product__tab--list">
+                                    <div class="product__tab--item">
+                                        <p class="product__tab--text">хит</p>
+                                        <p class="product__tab--text">готовое решение</p>
+                                        <p class="product__tab--text">новинка</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="product__title">5 грамм</h3>
+                            <div class="product__price">
+                                <p class="product__price--text"><span class="product__price--span">от</span>500<span class="product__price--span">₽</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="product__item">
+                        <div class="product__item--wrap">
+                            <div class="product__item--wallpaper">
+                                <img src="assets/content/product.webp" alt="картинка для товара" class="product__item--img">
+                                <div class="product__tab--list">
+                                    <div class="product__tab--item">
+                                        <p class="product__tab--text">хит</p>
+                                        <p class="product__tab--text">готовое решение</p>
+                                        <p class="product__tab--text">новинка</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="product__title">5 грамм</h3>
+                            <div class="product__price">
+                                <p class="product__price--text"><span class="product__price--span">от</span>500<span class="product__price--span">₽</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="product__item">
+                        <div class="product__item--wrap">
+                            <div class="product__item--wallpaper">
+                                <img src="assets/content/product.webp" alt="картинка для товара" class="product__item--img">
+                                <div class="product__tab--list">
+                                    <div class="product__tab--item">
+                                        <p class="product__tab--text">хит</p>
+                                        <p class="product__tab--text">готовое решение</p>
+                                        <p class="product__tab--text">новинка</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="product__title">5 грамм</h3>
+                            <div class="product__price">
+                                <p class="product__price--text"><span class="product__price--span">от</span>500<span class="product__price--span">₽</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="product__item">
+                        <div class="product__item--wrap">
+                            <div class="product__item--wallpaper">
+                                <img src="assets/content/product.webp" alt="картинка для товара" class="product__item--img">
+                                <div class="product__tab--list">
+                                    <div class="product__tab--item">
+                                        <p class="product__tab--text">хит</p>
+                                        <p class="product__tab--text">готовое решение</p>
+                                        <p class="product__tab--text">новинка</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="product__title">5 грамм</h3>
+                            <div class="product__price">
+                                <p class="product__price--text"><span class="product__price--span">от</span>500<span class="product__price--span">₽</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="product__item">
+                        <div class="product__item--wrap">
+                            <div class="product__item--wallpaper">
+                                <img src="assets/content/product.webp" alt="картинка для товара" class="product__item--img">
+                                <div class="product__tab--list">
+                                    <div class="product__tab--item">
+                                        <p class="product__tab--text">новинка</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="product__title">5 грамм</h3>
+                            <div class="product__price">
+                                <p class="product__price--text"><span class="product__price--span">от</span>500<span class="product__price--span">₽</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="product__item">
+                        <div class="product__item--wrap">
+                            <div class="product__item--wallpaper">
+                                <img src="assets/content/product.webp" alt="картинка для товара" class="product__item--img">
+                                <div class="product__tab--list">
+                                    <div class="product__tab--item">
+                                        <p class="product__tab--text">хит</p>
+                                        <p class="product__tab--text">готовое решение</p>
+                                        <p class="product__tab--text">новинка</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="product__title">5 грамм</h3>
+                            <div class="product__price">
+                                <p class="product__price--text"><span class="product__price--span">от</span>500<span class="product__price--span">₽</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="product__item">
+                        <div class="product__item--wrap">
+                            <div class="product__item--wallpaper">
+                                <img src="assets/content/form_768.webp" alt="картинка для товара" class="product__item--img">
+                                <div class="product__tab--list">
+                                    <div class="product__tab--item">
+                                        <p class="product__tab--text">хит</p>
+                                        <p class="product__tab--text">новинка</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="product__title">5 грамм</h3>
+                            <div class="product__price">
+                                <p class="product__price--text"><span class="product__price--span">от</span>500<span class="product__price--span">₽</span></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="product__item">
+                        <div class="product__item--wrap">
+                            <div class="product__item--wallpaper">
+                                <img src="assets/content/product.webp" alt="картинка для товара" class="product__item--img">
+                                <div class="product__tab--list">
+                                    <div class="product__tab--item">
+                                        <p class="product__tab--text">хит</p>
+                                        <p class="product__tab--text">готовое решение</p>
+                                        <p class="product__tab--text">новинка</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="product__title">5 грамм</h3>
+                            <div class="product__price">
+                                <p class="product__price--text"><span class="product__price--span">от</span>500<span class="product__price--span">₽</span></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <a href="#" class="btn section__btn">перейти в каталог</a>
+            </section>
+            <section class="section section__special">
+                <div class="special__banner">
+                    <article class="special__article">
+                        <h2 class="special__title">Спец предложение</h2>
+                        <p class="special__subtitle">Стартовые наборы</p>
+                    </article>
+                    <div class="special__picture">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="assets/content/form_420.webp">
+                            <source media="(max-width: 1024px)" srcset="assets/content/form_1024.webp">
+                            <img class="special__img" src="assets/content/form.webp" alt="worker">
+                        </picture> 
+                    </div>
+                    <div class="special__control">
+                        <div class="special__size--list">
+                            <button class="btn special__size--btn btn__green_black">s</button>
+                            <button class="btn special__size--btn btn__green_black">m</button>
+                            <button class="btn special__size--btn btn__green_black">l</button>
+                            <button class="btn special__size--btn btn__green_black">xl</button>
+                        </div>
+                        <img src="assets/icons/big_arrow.svg" alt="стрелка" class="special__arrow">
+                        <button class="btn special__btn btn__green_black">оформить заказ</button>
+                    </div>
+                </div>
+            </section>
+            <section class="section section__offer">
+                <article class="section__article">
+                    <h2 class="article__title">
+                        Специальные предложения
+                    </h2>
+                </article>
+                <div class="offer__list">
+                    <div class="offer__item">
+                        <img src="assets/content/sale_sample.webp" alt="изображение акций" class="offer__img">
+                        <article class="offer__article">
+                            <h3 class="offer__title">Акция</h3>
+                            <p class="offer__text">Получите в подарок до 100 брендированных шоколадокпри заказе от 2000 рублей</p>
+                            <a href="#" class="btn btn__green offer__link">Подробнее</a>
+                        </article>
+                    </div>
+                    <div class="offer__item">
+                        <img src="assets/content/partners_sample.webp" alt="изображение партнеров" class="offer__img">
+                        <article class="offer__article">
+                            <h3 class="offer__title">Партнерство</h3>
+                            <p class="offer__text">
+                                Мы открыты к сотрудничеству и ждем ваших предложений
+                            </p>
+                            <a href="#" class="btn btn__green offer__link">Подробнее</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="section section__about">
+                <a href="#" class="about__link">
+                    <picture>
+                        <source media="(max-width: 420px)" srcset="assets/content/about_420.webp">
+                        <source media="(max-width: 768px)" srcset="assets/content/about_768.webp">
+                        <source media="(max-width: 1024px)" srcset="assets/content/about_1024.webp">
+                        <img class="about__picture" src="assets/content/about__banner.webp" alt="worker">
+                    </picture> 
+                </a>
+            </section>
+            <section class="section section__client">
+                <article class="section__article article__client article__center">
+                    <h2 class="article__title">
+                        Наши клиенты
+                    </h2>
+                    <div class="comment">
+                        <p class="comment__text">
+                            Выполняем более 120 заказов в месяц для заказчиков по всей стране.
+                        </p>
+                    </div>
+                </article>
+                <picture>
+                    <img class="map__picture" src="assets/content/map.webp" alt="карта">
+                </picture>
+                <div class="brands-swiper">
+                    <div class="brands-swiper-wrapper">
+                        <div class="brands-slide">
+                            <img src="assets/icons/car.svg" alt="Nike" loading="lazy">
+                        </div>
+                        <div class="brands-slide">
+                            <img src="assets/icons/halva.svg" alt="Adidas" loading="lazy">
+                        </div>
+                        <div class="brands-slide">
+                            <img src="assets/icons/ozon.svg" alt="Nike" loading="lazy">
+                        </div>
+                        <div class="brands-slide">
+                            <img src="assets/icons/halva.svg" alt="Adidas" loading="lazy">
+                        </div>
+                        <div class="brands-slide">
+                            <img src="assets/icons/sber.svg" alt="Nike" loading="lazy">
+                        </div>
+                        <div class="brands-slide">
+                            <img src="assets/icons/halva.svg" alt="Adidas" loading="lazy">
+                        </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="section section__payment">
+                <article class="section__article article__client article__center">
+                    <h2 class="article__title">
+                        Условия и оплата
+                    </h2>
+                    <div class="comment">
+                        <p class="comment__text">
+                            Заказы до 2.000 шоколадок, можем произвести и отправить в течении 24 часов<br>с момента согласования дизайн-макета.<br>
+                            <br>Москва/Ростов/Воронеж - сегодня заказали - завтра получили.
+                        </p>
+                    </div>
+                </article>
+                <div class="offer__list">
+                    <div class="offer__item">
+                        <img src="assets/content/sroki_sample.webp" alt="сроки" class="offer__img">
+                        <article class="offer__article">
+                            <h3 class="offer__title">Сроки</h3>
+                            <p class="offer__text">Если просрочим поставку - верём деньги</p>
+                            <a href="#" class="btn btn__green offer__link">Подробнее</a>
+                        </article>
+                    </div>
+                    <div class="offer__item">
+                        <img src="assets/content/payment_sample.webp" alt="оплата" class="offer__img">
+                        <article class="offer__article">
+                            <h3 class="offer__title">Оплата</h3>
+                            <p class="offer__text">Оплата производится после согласования дизайн-макета</p>
+                            <a href="#" class="btn btn__green offer__link">Подробнее</a>
+                        </article>
+                    </div>
+                    <div class="offer__item">
+                        <img src="assets/content/delevery_sample.webp" alt="доставка" class="offer__img">
+                        <article class="offer__article">
+                            <h3 class="offer__title">Доставка</h3>
+                            <p class="offer__text">Подберем удобную для вас транспортную компанию для доставки</p>
+                            <a href="#" class="btn btn__green offer__link">Подробнее</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="section section__sertificate">
+                <article class="section__article article__client article__center">
+                    <h2 class="article__title">
+                        Сертификаты качества
+                    </h2>
+                </article>
+                <div class="swiper swiper__certificates">
+                    <div class="swiper-wrapper swiper-wrapper--cert">
+                        <div class="swiper-slide certificate-slide">
+                            <a href="assets/content/sert_sample.webp" data-fancybox="certificates" data-caption="Сертификат качества 1">
+                                <img src="assets/content/sert_sample.webp" alt="Сертификат качества 1" class="certificate-img">
+                            </a>
+                        </div>
+                        <div class="swiper-slide certificate-slide">
+                            <a href="assets/content/sert_sample.webp" data-fancybox="certificates" data-caption="Сертификат качества 2">
+                                <img src="assets/content/sert_sample.webp" alt="Сертификат качества 2" class="certificate-img">
+                            </a>
+                        </div>
+                        <div class="swiper-slide certificate-slide">
+                            <a href="assets/content/sert_sample.webp" data-fancybox="certificates" data-caption="Сертификат качества 3">
+                                <img src="assets/content/sert_sample.webp" alt="Сертификат качества 3" class="certificate-img">
+                            </a>
+                        </div>
+                        <div class="swiper-slide certificate-slide">
+                            <a href="assets/content/sert_sample.webp" data-fancybox="certificates" data-caption="Сертификат качества 4">
+                                <img src="assets/content/sert_sample.webp" alt="Сертификат качества 4" class="certificate-img">
+                            </a>
+                        </div>
+                        <div class="swiper-slide certificate-slide">
+                            <a href="assets/content/sert_sample.webp" data-fancybox="certificates" data-caption="Сертификат качества 5">
+                                <img src="assets/content/sert_sample.webp" alt="Сертификат качества 5" class="certificate-img">
+                            </a>
+                        </div>
+                        <div class="swiper-slide certificate-slide">
+                            <a href="assets/content/sert_sample.webp" data-fancybox="certificates" data-caption="Сертификат качества 6">
+                                <img src="assets/content/sert_sample.webp" alt="Сертификат качества 6" class="certificate-img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </section>
+            <section class="section section__form">
+                <div class="contact__form">
+                    <iframe class="map" src="https://yandex.ru/map-widget/v1/?ll=39.737544%2C47.241313&mode=search&oid=1314610946&ol=biz&z=18.39"
+                        width="560"
+                        height="400"
+                        allowfullscreen="true"
+                        frameborder="none"
+                    >
+                    </iframe>
+                    <div class="form__wrap">
+                        <article class="form__article">
+                            <h2 class="article__title form__title">
+                                Остались вопросы?
+                            </h2>
+                            <p class="article__text">Если у вас остались вопросы, оставьте заявку и менеджер свяжется с вам в течение 15 минут.</p>
+                        </article>
+                        <form action="#" class="form" method="POST">
+                            <div class="form__field">
+                                <label for="name" class="form__label">Имя</label>
+                                <input type="text" name="name" id="name" class="form__input" placeholder="Ваше имя" required>
+                            </div>
+                            <div class="form__field">
+                                <label for="mail" class="form__label">Email</label>
+                                <input type="email" name="mail" id="mail" class="form__input" placeholder="example@mail.ru">
+                            </div>
+                            <div class="form__field">
+                                <label for="phone" class="form__label">Телефон</label>
+                                <input type="tel" name="phone" id="phone" class="form__input" 
+                                    placeholder="+7 (999) 123-45-67" 
+                                    pattern="\+7\s?[\(]{0,1}[0-9]{3}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" required>
+                            </div>
+                            <div class="form__privacy">
+                                <input type="checkbox" name="checkbox" id="checkbox" class="form__checkbox" required>
+                                <label for="checkbox" class="form__privacy-text">
+                                    Я даю согласие на обработку <a href="/privacy" class="form__privacy-link">персональных данных</a>
+                                </label>
+                            </div>
+                            <button type="submit" class="form__submit button button--primary">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="section section__case">
+                <article class="section__article article__client article__center">
+                    <h2 class="article__title">
+                        Кейсы
+                    </h2>
+                </article>
+                <div class="offer__list case__list">
+                    <a href="#" class="offer__item case__item">
+                        <div class="case__img--wrap">
+                            <img src="assets/content/sale_sample.webp" alt="изображение акций" class="offer__img case__img">
+                        </div>
+                        <article class="offer__article">
+                            <h3 class="offer__title">Название кейса</h3>
+                            <p class="offer__text">Получите в подарок до 100 брендированных шоколадокпри заказе от 2000 рублей</p>
+                        </article>
+                    </a>
+                    <a href="#" class="offer__item case__item">
+                        <div class="case__img--wrap">
+                            <img src="assets/content/sale_sample.webp" alt="изображение акций" class="offer__img case__img">
+                        </div>
+                        <article class="offer__article">
+                            <h3 class="offer__title">Название кейса</h3>
+                            <p class="offer__text">
+                                Мы открыты к сотрудничеству и ждем ваших предложений
+                            </p>
+                        </article>
+                    </a>
+                    <a href="#" class="offer__item case__item">
+                        <div class="case__img--wrap">
+                            <img src="assets/content/sale_sample.webp" alt="изображение акций" class="offer__img case__img">
+                        </div>
+                        <article class="offer__article">
+                            <h3 class="offer__title">Название кейса</h3>
+                            <p class="offer__text">
+                                Мы открыты к сотрудничеству и ждем ваших предложений
+                            </p>
+                        </article>
+                    </a>
+                </div>
+                <a href="#" class="btn section__btn">смотреть все кейсы</a>
+            </section>
+        </div>
+    </div>
+
+    <!--main end-->
+
+    <!--footer start-->
+
+    <div class="container">
+        <footer class="footer">
+            <div class="footer__wrap">
+                <div class="footer__header">
+                    <img src="assets/icons/logo.svg" alt="Логотип као-какао" class="logo footer__logo">
+                </div>
+                <div class="footer__body">
+        
+                    <div class="footer__block">
+                        <h4 class="footer__title">Контакты</h4>
+                        <div class="footer__block--wrap">
+                            <div class="footer__contact">
+                                <p class="footer__contact--title">Адрес</p>
+                                <a href="#" class="footer__link">г. Ростов-на-Дону, ул. ул Текучева, 207Ж, каб. 111</a>
+                            </div>
+                            <div class="footer__contact">
+                                <p class="footer__contact--title">Номер</p>
+                                <a href="tel:+78005553555" class="footer__link">+7 (800) 555 35-55</a>
+                            </div>
+                            <div class="footer__contact">
+                                <p class="footer__contact--title">Email:</p>
+                                <a href="mailto:hello@kao-kakao.ru" class="footer__link">hello@kao-kakao.ru</a>
+                            </div>
+                        </div>
+                        <div class="footer__block--wrap">
+                            <h4 class="footer__title">Мы в соц. сетях</h4>
+                            <div class="footer__social--list">
+                                <a href="#" class="footer__social--link">
+                                    <img src="assets/icons/Instagram.svg" alt="иконка социальной сети" class="footer__social--icon">
+                                </a>
+                                <a href="#" class="footer__social--link">
+                                    <img src="assets/icons/Telegram.svg" alt="иконка социальной сети" class="footer__social--icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="footer__block">
+                        <h4 class="footer__title">Каталог</h4>
+                        <nav class="footer__nav">
+                            <a href="#" class="footer__link">
+                                Шоколад порционный
+                            </a>
+                            <a href="#" class="footer__link">
+                                Шоколад порционный
+                            </a>
+                            <a href="#" class="footer__link">
+                                Шоколад порционный
+                            </a>
+                            <a href="#" class="footer__link">
+                                Шоколад порционный
+                            </a>
+                            <a href="#" class="footer__link">
+                                Шоколад порционный
+                            </a>
+                            <a href="#" class="footer__link">
+                                Шоколад порционный
+                            </a>
+                            <a href="#" class="footer__link">
+                                Шоколад порционный
+                            </a>
+                        </nav>
+                    </div>
+        
+                    <div class="footer__block">
+                        <div class="footer__block--wrap">
+                            <h4 class="footer__title">О нас</h4>
+                            <div class="footer__contact">
+                                <a href="#" class="footer__link">
+                                    История бренда
+                                </a>
+                                <a href="#" class="footer__link">
+                                    Блог
+                                </a>
+                            </div>
+                            <div class="footer__contact">
+                                <a href="#" class="footer__link">
+                                    Политика конфиденциальности
+                                </a>
+                                <a href="#" class="footer__link">
+                                    Публичная оферта
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer__block--wrap">
+                            <h4 class="footer__title">Услуги или программы</h4>
+                            <div class="footer__contact">
+                                <a href="#" class="footer__link">
+                                    Партнерская программа
+                                </a>
+                                <a href="#" class="footer__link">
+                                    Услуга
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="footer__copyright">
+                    <p class="copyright">
+                        Copyright© 2025 OOO "KAO-KAKAO" | Все права защищены | <a href="/privacy" class="privacy__link">Политика конфиденциальности</a>
+                    </p>
+                    <p class="footer__tags">
+                        Сайт разработан <a href="https://vbrand.ru/" class="footer__link" target="_blank">маркетинговым агенством v-brand</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!--footer end-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <script src="scripts/mainSwiper.js" defer></script>
+    <script src="scripts/header.js" defer></script>
+    <script src="scripts/mainClientSwiper.js" defer></script>
+    <script src="scripts/mainCertSwiper.js" defer></script>
+    <script src="init/fancybox.js" defer></script>
+    <script src="scripts/formValid.js" defer></script>
+</body>
+</html>
